@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Inlämning 2</string>
+    <string name="hello_world">Hej Värld!</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="hello_blank_fragment">Hej tomt fragment</string>
+    <string name="username">Användarnamn</string>
+    <string name="group">Grupp</string>
+    <string name="connect">Anslut</string>
+    <string name="disconnect">Koppla från</string>
+    <string name="getGroups">Updatera grupper</string>
+    <string name="map">Karta</string>
+    <string name="drawerOpen">Öppna</string>
+    <string name="drawerClose">Stäng</string>
+    <string name="emptyFields">Ett eller fler fält är tomma</string>
+    <string name="registerNewUser">Registrerar…</string>
+    <string name="switchGroup">Bytar grupp…</string>
+    <string name="noBinding">Ingen binding</string>
+    <string name="updatingMap">Uppdaterar Karta…</string>
+    <string name="reconnecting">Återansluter…</string>
+    <string name="connected">Ansluten</string>
+    <string name="disconnected">Frånkopplad</string>
+</resources>

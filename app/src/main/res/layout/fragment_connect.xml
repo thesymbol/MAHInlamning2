@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="se.orw.inlamning2.ConnectFragment">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etUsername"
+        android:hint="@string/username" />
+
+    <EditText
+        android:layout_width="110sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etUsername"
+        android:layout_alignStart="@id/etUsername"
+        android:layout_alignEnd="@id/etUsername"
+        android:id="@+id/etGroup"
+        android:hint="@string/group" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/etUsername"
+        android:id="@+id/btnConnect"
+        android:text="@string/connect" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btnConnect"
+        android:id="@+id/btnDisconnect"
+        android:text="@string/disconnect" />
+
+    <Spinner
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerGroup"
+        android:layout_below="@id/etGroup"
+        android:layout_alignStart="@id/etGroup" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGetGroups"
+        android:text="@string/getGroups"
+        android:layout_toRightOf="@id/spinnerGroup"
+        android:layout_alignTop="@id/spinnerGroup" />
+
+</RelativeLayout>

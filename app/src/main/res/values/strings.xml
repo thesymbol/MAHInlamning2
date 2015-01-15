@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Inlamning 2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">Username</string>
+    <string name="group">Group</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="getGroups">Update Groups</string>
+    <string name="map">Map</string>
+    <string name="drawerOpen">Open</string>
+    <string name="drawerClose">Close</string>
+    <string name="emptyFields">One or more fields are empty</string>
+    <string name="registerNewUser">Registering…</string>
+    <string name="switchGroup">Switching group…</string>
+    <string name="noBinding">No binding</string>
+    <string name="updatingMap">Updating map…</string>
+    <string name="reconnecting">Reconnecting…</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+</resources>
